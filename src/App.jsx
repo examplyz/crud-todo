@@ -1,9 +1,9 @@
+import RouterProvider from "./providers/RouterProvider.jsx";
+
 function App() {
 	
 	return (
-		<div>
-		
-		</div>
+		<RouterProvider/>
 	)
 }
 
