@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import styles from "./NotFoundPage.module.scss"
 import {NavLink} from "react-router";
-import robot_img from "../../assets/images/robot_img.png"
+import robot_img from "../../shared/images/robot_img.png"
 
 const NotFoundPage = () => {
 	const [counter, setCounter] = useState(20)

@@ -53,7 +53,7 @@ table {
 /* 100 Thin */
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-Thin.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -61,7 +61,7 @@ table {
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-ThinItalic.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-ThinItalic.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
   font-display: swap;
@@ -70,7 +70,7 @@ table {
 /* 200 ExtraLight */
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-ExtraLight.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-ExtraLight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -78,7 +78,7 @@ table {
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-ExtraLightItalic.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-ExtraLightItalic.ttf") format("truetype");
   font-weight: 200;
   font-style: italic;
   font-display: swap;
@@ -87,7 +87,7 @@ table {
 /* 300 Light */
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-Light.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -95,7 +95,7 @@ table {
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-LightItalic.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -104,7 +104,7 @@ table {
 /* 400 Regular */
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -112,7 +112,7 @@ table {
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-Italic.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -121,7 +121,7 @@ table {
 /* 500 Medium */
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-Medium.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -129,7 +129,7 @@ table {
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-MediumItalic.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -138,7 +138,7 @@ table {
 /* 600 SemiBold */
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -146,7 +146,7 @@ table {
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-SemiBoldItalic.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-SemiBoldItalic.ttf") format("truetype");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
@@ -155,7 +155,7 @@ table {
 /* 700 Bold */
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-Bold.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -163,7 +163,7 @@ table {
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-BoldItalic.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-BoldItalic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -172,7 +172,7 @@ table {
 /* 800 ExtraBold */
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-ExtraBold.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -180,7 +180,7 @@ table {
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-ExtraBoldItalic.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-ExtraBoldItalic.ttf") format("truetype");
   font-weight: 800;
   font-style: italic;
   font-display: swap;
@@ -189,7 +189,7 @@ table {
 /* 900 Black */
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-Black.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -197,7 +197,7 @@ table {
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat-BlackItalic.ttf") format("truetype");
+  src: url("shared/fonts/Montserrat-BlackItalic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
   font-display: swap;

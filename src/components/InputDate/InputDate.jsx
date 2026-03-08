@@ -1,10 +1,7 @@
 import React, {useEffect} from "react";
 import styles from "./InputDate.module.scss";
+import getTodayDate from "../../shared/utils/getDate.js";
 
-const getTodayDate = () => {
-	const date = new Date();
-	return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
-}
 
 const InputDate = ({onChange, value}) => {
 	useEffect(() => {

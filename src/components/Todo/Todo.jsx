@@ -6,6 +6,7 @@ import {ImCross} from "react-icons/im";
 import {GrEdit} from "react-icons/gr";
 import {useNavigate} from "react-router";
 import {useDispatch} from "react-redux";
+import getTodayDate from "../../shared/utils/getDate.js";
 import {todoDeleted, todoToggled} from "../../features/todos/todosSlice.js";
 
 const Todo = ({title, text, isCompleted, id, deadLine}) => {
@@ -22,7 +23,8 @@ const Todo = ({title, text, isCompleted, id, deadLine}) => {
 				<p className={styles.text}>
 					{text}
 				</p>
-				<p className={styles.due}>
+				<p
+					className={styles.due + (getTodayDate() >= deadLine && ` ${styles.expired}`)}>
 					Due to date: {deadLine}
 				</p>
 			</div>
