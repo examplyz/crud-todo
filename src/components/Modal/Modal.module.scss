@@ -1,0 +1,32 @@
+.modal {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.24);
+  display: none;
+  opacity: 0;
+  transition: 0.4s all linear;
+
+  .content {
+    background: #E2E2E2;
+    border-radius: 16px;
+    padding: 20px;
+    transition: 0.4s all;
+    transform: scale(0.3);
+  }
+}
+
+
+.modalActive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+
+  .contentActive {
+    transform: scale(1);
+  }
+}
