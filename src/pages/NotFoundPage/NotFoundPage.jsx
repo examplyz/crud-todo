@@ -19,7 +19,7 @@ const NotFoundPage = () => {
 				You will be redirected to the
 				<NavLink to={"/todos"}> main page </NavLink> in {counter} seconds....
 			</p>
-			{/*{!counter && <Navigate to={"/todos"}/>}*/}
+			{!counter && <Navigate to={"/todos"}/>}
 		</div>
 	);
 };

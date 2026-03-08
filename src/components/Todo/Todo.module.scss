@@ -1,0 +1,66 @@
+.todo {
+  width: 90%;
+  border: 6px solid black;
+  border-radius: 10px;
+  padding: 12px 12px;
+  height: fit-content;
+  color: #605F5E;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  box-shadow: 8px 10px 0px 1px rgb(0, 0, 0, 0.3);
+
+  .info {
+    display: flex;
+    width: 70%;
+    align-self: start;
+    flex-direction: column;
+    gap: 6px;
+
+    .title {
+      font-size: 22px;
+      font-weight: 500;
+      @media screen and (max-width: 700px) {
+        font-size: 18px;
+      }
+    }
+
+    .text {
+      font-size: 14px;
+      font-style: italic;
+      @media screen and (max-width: 700px) {
+        font-size: 12px;
+      }
+    }
+
+    .due {
+      font-size: 16px;
+      font-style: italic;
+      @media screen and (max-width: 700px) {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .buttonBar {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    @media screen and (max-width: 1000px) {
+      flex-direction: column;
+      gap: 9px;
+    }
+  }
+}
+
+
+.complited {
+  border-color: #247BA0;
+}
+
+.incomplited {
+  border-color: #FB3640;
+}

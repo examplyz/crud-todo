@@ -1,0 +1,33 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  height: 40px;
+  min-width: 40px;
+  width: fit-content;
+  border: 3px solid transparent;
+  background: none;
+  border-radius: 5px;
+  margin: 0px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+
+  svg {
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 850px) {
+    font-size: 14px;
+    min-width: 20px;
+    height: 28px;
+    svg {
+      font-size: 16px;
+    }
+  }
+}
+
+.button:hover {
+  transform: scale(1.04);
+}
