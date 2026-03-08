@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  align-items: center;
+
+  .form {
+    margin: 0px auto;
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    background: aliceblue;
+    padding: 30px 40px;
+    justify-content: center;
+
+    h3 {
+      font-size: 40px;
+      font-weight: 500;
+      color: #0A2463;
+      font-style: italic;
+    }
+
+    label {
+      align-self: start;
+      
+    }
+  }
+}
