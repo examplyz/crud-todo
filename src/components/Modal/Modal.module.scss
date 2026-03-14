@@ -11,14 +11,14 @@
   transition: 0.4s all linear;
 
   .content {
-    background: #E2E2E2;
+    background: white;
     border-radius: 16px;
     padding: 20px;
     transition: 0.4s all;
     transform: scale(0.3);
   }
 }
-
+ 
 
 .modalActive {
   display: flex;

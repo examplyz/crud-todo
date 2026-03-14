@@ -1,11 +1,11 @@
 import React from "react";
-import CreateForm from "../../components/CreateForm/CreateForm.jsx";
+import Form from "../../components/Form/Form.jsx";
 
 const CreatePage = () => {
 	
 	return (
 		<div>
-			<CreateForm/>
+			<Form type={"create"}/>
 		</div>
 	);
 };
