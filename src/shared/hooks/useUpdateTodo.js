@@ -1,5 +1,6 @@
 import {useCallback, useEffect, useState} from "react";
 import {useSelector} from "react-redux";
+import {notificationAdded} from "../../features/todos/notificationsSlice.js";
 
 function useUpdateTodo(id, action, dispatch) {
 	const todos = useSelector((state) => {
@@ -25,8 +26,11 @@ function useUpdateTodo(id, action, dispatch) {
 	
 	const onSubmit = useCallback(() => {
 		dispatch(action({title, text, deadLine, isCompleted, id}))
+		dispatch(notificationAdded({
+			id: Date.now(),
+			text: "Todo is succesfully updated"
+		}))
 	}, [title, text, deadLine, isCompleted, id, dispatch, action])
-	
 	return {
 		onSubmit,
 		todo: {

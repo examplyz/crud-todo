@@ -17,7 +17,8 @@ const Form = ({type, id}) => {
 	} = useUpdateTodo(identificator, type === "create" ? todoAdded : todoEdited, dispatch)
 	return (
 		<div className={styles.container}>
-			<form className={styles.form} onSubmit={(e) => e.preventDefault()}>
+			<form className={styles.form}
+			      onSubmit={(e) => type == "create" ? null : e.preventDefault()}>
 				<h3>{type == "edit" ? "EDIT" : type == "create" && "ADD"} TODO</h3>
 				<InputText placeholder={"Enter Todo title"} value={todo.title}
 				           onChange={(e) => setTodo.setTitle(e.target.value)}/>
